@@ -1,0 +1,81 @@
+.banner {
+    background-image: url('https://i.ibb.co/f0XGSfB/Rectangle-2.png');
+
+}
+
+@media (min-width: 360px) and (max-width: 414px) {
+    .banner {
+        background-image: url('https://i.ibb.co/SyYB4dY/Rectangle-2-1.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+}
+
+@media(max-width:480px) {
+    .hidelink {
+        display: none;
+    }
+}
+
+@media(max-width:1200px) {
+    .cardwidth {
+        width: 692px;
+        height: 3472px;
+    }
+}
+
+@media (max-width:768px) {
+    .bannar {
+
+        padding: 200px 0;
+    }
+}
+
+
+.form {
+
+    position: relative;
+}
+
+.form .fa-search {
+
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span {
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 4px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+/* .left-pan {
+    padding-left: 7px;
+}
+
+.left-pan i {
+
+    padding-left: 10px;
+} */
+
+.form-input {
+
+    height: 42px;
+    width: 360px;
+    text-indent: 33px;
+    border-radius: 5px;
+}
+
+/* .form-input:focus {
+
+    box-shadow: none;
+    border: none;
+} */
